@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .aside {
+    width: 20%; 
+    background-color: transparent; 
+    height: 100vh;
+    position: fixed; 
+    top: 90px; 
+    left: 0; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 20px; 
+  }
+  
+  .aside-block {
+    width: 100%; 
+    background-color: gold; 
+    height: 200px; 
+    margin-bottom: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box; 
+    padding: 10px; 
+  }
+
+  .aside-title {
+    text-align: center; 
+    margin-bottom: 10px; 
+    font-size: 1.5rem; 
+  }
+  
+ 
+.center-section {
+    width: 60%; 
+    height: auto; 
+    margin: 0 auto; 
+    display: flex;
+    top: 50%; 
+    left: 50%;
+    margin-top: 15%;
+    position: relative;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+  }
+  
+ 
+  .center-section section {
+    width: 100%; 
+    background-color: pink;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+  }
+  
+  
+  .split-section {
+    background-color: green; 
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+  }
+  
+  
+  .split-section div {
+    width: 48%; 
+    background-color: lightblue; 
+    padding: 10px; 
+  }
+  
+
+  .left-section {
+    width: 20%;
+    height: 100%;
+    background-color: purple;
+    padding: 20px;
+  }
+  
+  .left-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-section input {
+    margin-bottom: 10px;
+  }
